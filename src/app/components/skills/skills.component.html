@@ -1,0 +1,77 @@
+<section id="experience" class="section-container">
+  <div class="mt-12" data-aos="fade-up" data-aos-duration="1000">
+    <h3 class="text-2xl font-semibold mb-4 text-green-400">Skills</h3>
+
+    <h4 class="text-xl font-semibold mb-2">Languages</h4>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      @for (lang of languages; track lang) {
+        <div class="p-4 rounded-lg shadow-md text-center flex flex-col items-center">
+          <img [src]="lang.logo" [alt]="lang.name"
+            class="h-10 w-10 mb-2 transition-transform duration-300 transform hover:scale-110"
+            [class.invert]="lang?.isInvertLogo">
+          <span class="font-semibold text-lightest-slate">{{ lang.name }}</span>
+        </div>
+      }
+    </div>
+
+    <h4 class="text-xl font-semibold mb-2 mt-8">Mainframe</h4>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      @for (mainframe of mainframes; track mainframe) {
+        <div class="p-4 rounded-lg shadow-md text-center flex flex-col items-center">
+          <img [src]="mainframe.logo" [alt]="mainframe.name"
+            class="h-10 w-10 mb-2 transition-transform duration-300 transform hover:scale-110"
+            [class.invert]="mainframe?.isInvertLogo">
+          <span class="font-semibold text-lightest-slate">{{ mainframe.name }}</span>
+        </div>
+      }
+    </div>
+
+    <h4 class="text-xl font-semibold mb-2 mt-8">Databases</h4>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      @for (database of databases; track database) {
+        <div class="p-4 rounded-lg shadow-md text-center flex flex-col items-center">
+          <img [src]="database.logo" [alt]="database.name"
+            class="h-10 w-10 mb-2 transition-transform duration-300 transform hover:scale-110"
+            [class.invert]="database?.isInvertLogo">
+          <span class="font-semibold text-lightest-slate">{{ database.name }}</span>
+        </div>
+      }
+    </div>
+
+   
+
+    <h4 class="text-xl font-semibold mb-2 mt-8">Project Management</h4>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      @for (pm of projectManagement; track pm) {
+        <div class="p-4 rounded-lg shadow-md text-center flex flex-col items-center">
+          <img [src]="pm.logo" [alt]="pm.name"
+            class="h-10 w-10 mb-2 transition-transform duration-300 transform hover:scale-110"
+            [class.invert]="pm?.isInvertLogo">
+          <span class="font-semibold text-lightest-slate">{{ pm.name }}</span>
+        </div>
+      }
+    </div>
+
+    <h4 class="text-xl font-semibold mb-2 mt-8">Tools</h4>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      @for (tool of tools; track tool) {
+        <div class="p-4 rounded-lg shadow-md text-center flex flex-col items-center">
+          <img [src]="tool.logo" [alt]="tool.name"
+            class="h-10 w-10 mb-2 transition-transform duration-300 transform hover:scale-110"
+            [class.invert]="tool?.isInvertLogo">
+          <span class="font-semibold text-lightest-slate">{{ tool.name }}</span>
+        </div>
+      }
+    </div>
+
+    <h4 class="text-xl font-semibold mb-2 mt-8">Machine Learning</h4>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      @for (ml of machineLearning; track ml) {
+        <span class="px-3 py-1 text-sm font-medium bg-white-400/10 text-white-400 border border-white-400 rounded-full">
+          {{ ml }}
+        </span>
+      }
+    </div>
+    
+</div>
+</section>
