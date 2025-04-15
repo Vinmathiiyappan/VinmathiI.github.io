@@ -6,9 +6,9 @@ import emailjs from 'emailjs-com';
   providedIn: 'root'
 })
 export class EmailService {
-  private serviceId = 'service_1i2lfdg'; // Your EmailJS Service ID
-  private templateId = 'template_z7nbljc'; // Your EmailJS Template ID
-  private userId = 'r9GfGTg30uWTtDPVe'; // Your EmailJS Public Key
+  private serviceId = 'service_u0tqv0o'; // Your EmailJS Service ID
+  private templateId = 'template_tkp6o8k'; // Your EmailJS Template ID
+  private userId = 'aRiDGLxihHk_D8KZP'; // Your EmailJS Public Key
 
   constructor() { }
 
