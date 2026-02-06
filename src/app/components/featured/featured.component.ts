@@ -26,6 +26,13 @@ export class FeaturedComponent {
       cta: 'Read More'
     },
     {
+      title: 'IEEE Publication - Artificial intelligence X Business 2025',
+      description: 'Presented my research works on Leveraging LLM and Utility metrics for analysing prescription drug expenditure patterns to identify at AIXB .',
+      link: '#',
+      image: 'assets/conference.jpg',
+   
+    },
+    {
       title: 'Women in Leadership',
       description: 'Selected as a distinguished associate from a pool of 100+ applicants, with the privilege of acquiring leadership skills, benefiting from dedicated mentorship, and actively engaging in diverse networking events.',
       link: 'https://www.csueastbay.edu/women-in-leadership/programs/index.html',

@@ -1,0 +1,15 @@
+<section id="featured" class="section-container">
+  <h2 class="section-title text-center mb-6" data-aos="fade-up">Spotlight</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div *ngFor="let pub of features" class="p-6 rounded-lg shadow-md bg-gray-900">
+      <img [src]="pub.image" [alt]="pub.title" class="rounded mb-4 w-full h-40 object-contain bg-white p-2" />
+      <h3 class="text-xl font-bold text-lightest-slate mb-2">{{ pub.title }}</h3>
+      <p class="text-slate mb-4">{{ pub.description }}</p>
+      <a [href]="pub.link" target="_blank"
+         class="mt-2 inline-block text-green-400 hover:underline">
+        {{ pub.cta }}
+      </a>
+    </div>
+  </div>
+</section>
