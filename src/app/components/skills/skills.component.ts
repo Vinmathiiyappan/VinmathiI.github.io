@@ -23,11 +23,7 @@ export class SkillsComponent {
     { name: 'MySQL', logo: 'https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/mysql/mysql-original.svg', isInvertLogo: false },
     { name: 'DB2', logo: 'https://dbdb.io/media/logos/ibm-db2-vertical.svg', isInvertLogo: false },
     { name: 'IMS DB', logo: 'https://www.svgrepo.com/show/37270/hierarchy.svg', isInvertLogo: false },
-<<<<<<< HEAD
-    { name: 'Teradata', logo: "https://www.svgrepo.com/show/419142/big-data-configuration-database.svg", isInvertLogo: false }, 
-=======
     { name: 'Teradata', logo: "https://www.svgrepo.com/show/419142/big-data-configuration-database.svg", isInvertLogo: false },
->>>>>>> 0f1e53b (Update portfolio site)
     { name: 'Snowflake', logo: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Snowflake_Logo.svg', isInvertLogo: false }
   ];
 
@@ -49,13 +45,8 @@ export class SkillsComponent {
     { name: 'Informatica Power Center', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgS7plzogzdUm6sao4Ft3exlvyldPq4DKOiw&s', isInvertLogo: false },
     { name: 'Excel', logo: 'https://www.svgrepo.com/show/373590/excel2.svg', isInvertLogo: false },
     { name: 'AWS', logo: 'https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', isInvertLogo: false },
-<<<<<<< HEAD
     { name: 'Google Analytics', logo: 'https://www.svgrepo.com/show/353804/google-analytics.svg', isInvertLogo: false }, 
     { name: 'ArcGIS Pro', logo: 'https://onegeo.co/blog/posts/2023-08-31-visualise-3d-building-data-in-arcgis/images/arcgis-pro-logo.png', isInvertLogo: false }
-=======
-    { name: 'ArcGIS Pro', logo: 'https://gis.umich.edu/cdn/89/resources/images/widget_3157/1611175349488.png', isInvertLogo: false },
-    { name: 'Google Analytics', logo: 'https://www.svgrepo.com/show/353804/google-analytics.svg', isInvertLogo: false }
->>>>>>> 0f1e53b (Update portfolio site)
   ];
 
   machineLearning = [
@@ -71,8 +62,7 @@ export class SkillsComponent {
     'A/B Testing', 
     'Sentiment Analysis', 
     'LLM'
-  ];
-  
+  ];  
 
 } 
 

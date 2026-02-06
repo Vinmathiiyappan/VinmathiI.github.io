@@ -11,13 +11,7 @@ import { CommonModule } from '@angular/common';
 export class FeaturedComponent {
   
   features = [
-    {
-      title: 'Presentation and Publication - IEEE AIXB 2025',
-      description: 'Presented my research works at IEEE AIXB 2025 industry-leading conference, sharing insights with data professionals and researchers.',
-      link: '#',
-      image: 'assets/conference.jpg',
-      
-    },
+    
     {
       title: 'Trailblazer in Analytics',
       description: 'Recognized in the CSUEB MSBA Student Portal for contributions in Data Analytics and Business Intelligence, bridging academic knowledge with real-world applications.',
